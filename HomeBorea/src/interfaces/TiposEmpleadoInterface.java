@@ -8,5 +8,6 @@ public interface TiposEmpleadoInterface {
     public ArrayList<TiposEmpleado> listarTipEmpleado();
     public String eliminarTipEmpleado(TiposEmpleado tiposEmpleado);
     public String insertarTipEmpleado(TiposEmpleado tiposEmpleado);
+    public String modificarEmpleado(TiposEmpleado tiposEmpleado);
     
 }
